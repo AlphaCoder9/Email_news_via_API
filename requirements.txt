@@ -1,0 +1,4 @@
+1) import requests # To render the Browser
+2) newsapi.org sign up and get the API key
+3) select the topic and use that API
+4) setup the Email
