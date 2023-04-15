@@ -5,9 +5,10 @@ topic = "tesla"
 
 api_key = "1546de173fe342dfbb3002ba48bfbeff"
 
+# Note that date is mentioned you need to update to the current date.
 url = "https://newsapi.org/v2/everything?" \
       f"q={topic}" \
-      "&from=2023-03-14&sortBy " \
+      "&from=2023-03-15&sortBy " \
       "=publishedAt&" \
       "apiKey=1546de173fe342dfbb3002ba48bfbeff&" \
       "language=en"

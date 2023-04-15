@@ -1,12 +1,14 @@
 import smtplib
 import ssl
+import os
 
 def send_email(message):
     host = 'smtp.gmail.com'
     port = 465
 
     username = 'adeelta302@gmail.com'
-    password = 'ekxcwbuchlqzqgui'
+    # My API key is stored at my PC env variable.
+    password = os.getenv("PASSWORD")
 
     receiver = "adeelt7875@gmail.com"
     # Secure Context for sending emails securely
